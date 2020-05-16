@@ -7,11 +7,12 @@ def XOR(x1, x2):
     # = パーセプトロン2層でXORを表現
     return AND(s1, s2)
 
-# 0
-print(XOR(0, 0))
-# 1
-print(XOR(1, 0))
-# 1
-print(XOR(0, 1))
-# 0
-print(XOR(1, 1))
+if __name__ == '__main__':
+    # 0
+    print(XOR(0, 0))
+    # 1
+    print(XOR(1, 0))
+    # 1
+    print(XOR(0, 1))
+    # 0
+    print(XOR(1, 1))

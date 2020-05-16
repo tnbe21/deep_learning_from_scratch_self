@@ -6,8 +6,8 @@ def AND(x1, x2):
     elif tmp > theta:
         return 1
 
-
-print(AND(0, 0))
-print(AND(1, 0))
-print(AND(0, 1))
-print(AND(1, 1))
+if __name__ == '__main__':
+    print(AND(0, 0))
+    print(AND(1, 0))
+    print(AND(0, 1))
+    print(AND(1, 1))
