@@ -3,3 +3,6 @@ __pycache__
 
 .envrc
 .venv
+
+common
+dataset
