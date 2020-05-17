@@ -4,6 +4,6 @@
 
 本家からcommon, datasetディレクトリだけ落としてくる
 ```
-svn export https://github.com/oreilly-japan/deep-learning-from-scratch/tree/master/common
-svn export https://github.com/oreilly-japan/deep-learning-from-scratch/tree/master/dataset
+svn export https://github.com/oreilly-japan/deep-learning-from-scratch/trunk/common
+svn export https://github.com/oreilly-japan/deep-learning-from-scratch/trunk/dataset
 ```
