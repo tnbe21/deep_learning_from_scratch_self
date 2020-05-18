@@ -7,4 +7,4 @@ __pycache__
 common
 dataset
 
-ch3_neural_network/sample_weight.pkl
+*.pkl
