@@ -7,7 +7,10 @@ from ch4_3_1 import numerical_diff
 
 
 def function_2(x):
-    return x[0] ** 2.0 + x[1] ** 2.0
+    if x.ndim == 1:
+        return np.sum(x**2)
+    else:
+        return np.sum(x**2, axis=1)
 
 
 def function_tmp0(x_0):
