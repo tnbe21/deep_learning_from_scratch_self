@@ -28,9 +28,9 @@ if __name__ == '__main__':
     print(net.W)
 
     # 入力
-    x = np.array([0.6, 0.9])
+    ipt = np.array([0.6, 0.9])
     # 算出したラベル
-    p = net.predict(x)
+    p = net.predict(ipt)
     print(p)
 
     print(np.argmax(p))
@@ -38,13 +38,13 @@ if __name__ == '__main__':
     # 正解ラベル
     t = np.array([0, 0, 1])
     # 損失関数の計算
-    print(net.loss(x, t))
+    print(net.loss(ipt, t))
 
 
     def f(W):
-        return net.loss(x, t)
+        return net.loss(ipt, t)
 
-    # net.Wの各要素についてのnet.loss(x, t)の偏微分結果が格納
+    # net.Wの各要素についてのnet.loss(ipt, t)の偏微分結果が格納
     # (net.W自体をnumerical_gradientの中で変化させて計算(偏微分))
     dW = numerical_gradient(f, net.W)
     print(dW)
