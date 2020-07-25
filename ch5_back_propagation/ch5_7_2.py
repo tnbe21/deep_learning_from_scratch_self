@@ -27,6 +27,9 @@ class TwoLayerNet:
         self.lastLayer = SoftmaxWithLoss()
 
     def predict(self, x):
+        """
+        順伝搬
+        """
         for layer in self.layers.values():
             x = layer.forward(x)
 
@@ -57,6 +60,9 @@ class TwoLayerNet:
         return grads
 
     def gradient(self, x, t):
+        """
+        逆伝搬
+        """
         self.loss(x, t)
 
         dout = 1
