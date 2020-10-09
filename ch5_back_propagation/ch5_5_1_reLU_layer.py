@@ -1,6 +1,9 @@
 import numpy as np
 
 class Relu:
+    """
+    ReLUレイヤ
+    """
     def __init__(self):
         self.mask = None
 

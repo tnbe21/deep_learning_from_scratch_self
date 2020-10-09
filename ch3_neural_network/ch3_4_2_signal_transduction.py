@@ -1,6 +1,6 @@
 import numpy as np
 
-from ch3_2_4 import sigmoid
+from ch3_2_4_sigmoid import sigmoid
 
 def identity_function(x):
     return x

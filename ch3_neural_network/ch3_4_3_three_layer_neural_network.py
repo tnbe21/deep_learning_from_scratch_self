@@ -1,7 +1,7 @@
 import numpy as np
 
-from ch3_2_4 import sigmoid
-from ch3_4_2 import identity_function
+from ch3_2_4_sigmoid import sigmoid
+from ch3_4_2_signal_transduction import identity_function
 
 narr = np.array
 

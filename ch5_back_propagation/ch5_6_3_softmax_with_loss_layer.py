@@ -24,6 +24,9 @@ def cross_entropy_error(y, t):
 
 
 class SoftmaxWithLoss:
+    """
+    Softmax-with-Lossレイヤ
+    """
     def __init__(self):
         self.y = None
         self.t = None

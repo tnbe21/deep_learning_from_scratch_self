@@ -1,7 +1,10 @@
-from ch5_4_1 import MulLayer
+from ch5_4_1_mul_layer import MulLayer
 
 
 class AddLayer:
+    """
+    加算レイヤ
+    """
     def __init__(self):
         pass
 

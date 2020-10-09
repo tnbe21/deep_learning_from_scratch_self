@@ -2,6 +2,9 @@ import numpy as np
 
 
 class Sigmoid:
+    """
+    Sigmoidレイヤ
+    """
     def __init__(self):
         self.out = None
 

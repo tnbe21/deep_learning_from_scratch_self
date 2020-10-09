@@ -3,7 +3,7 @@ import numpy as np
 
 from mpl_toolkits.mplot3d import Axes3D
 
-from ch4_3_1 import numerical_diff
+from ch4_3_1_numerical_diff import numerical_diff
 
 
 def function_2(x):

@@ -1,4 +1,4 @@
-from ch2_3_3 import NAND, OR, AND
+from ch2_3_3_perceptron_by_logic_circuit import NAND, OR, AND
 
 def XOR(x1, x2):
     s1 = NAND(x1, x2)

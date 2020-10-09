@@ -1,6 +1,6 @@
 import numpy as np
 
-from ch3_5_2 import softmax_new as softmax
+from ch3_5_2_softmax import softmax_new as softmax
 
 narr = np.array
 

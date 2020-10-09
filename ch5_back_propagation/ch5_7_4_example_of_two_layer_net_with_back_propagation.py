@@ -5,7 +5,7 @@ import numpy as np
 
 sys.path.append(os.pardir)
 
-from ch5_7_2 import TwoLayerNet
+from ch5_7_2_two_layer_net_with_back_propagation import TwoLayerNet
 from dataset.mnist import load_mnist
 
 (x_train, t_train), (x_test, t_test) = \

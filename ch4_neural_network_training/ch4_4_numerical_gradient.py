@@ -2,7 +2,7 @@ import matplotlib.pylab as plt
 import numpy as np
 from mpl_toolkits.mplot3d import Axes3D
 
-from ch4_3_3 import function_2
+from ch4_3_3_partial_numerical_diff import function_2
 
 def _numerical_gradient_no_batch(f, x):
     # 0.0001
