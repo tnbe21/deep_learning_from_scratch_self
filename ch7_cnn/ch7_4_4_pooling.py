@@ -17,7 +17,14 @@ class Pooling:
 
     def forward(self, x):
         N, C, H, W = x.shape
+
+        col = im2col(x, self.pool_h, self.pool_w, self.stride, self.pad)
+        col = col.reshape(-1, self.pool_h * self.pool_w)
+
+        out = np.max(col, axis=1)
+
         out_h = int(1 + (H - self.pool_h) / self.stride)
         out_w = int(1 + (W - self.pool_w) / self.stride)
+        out = out.reshape(N, out_h, out_w, C).transpose(0, 3, 1, 2)
 
-
+        return out
