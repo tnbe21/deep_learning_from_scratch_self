@@ -6,3 +6,4 @@ Pillow==7.1.2
 pyparsing==2.4.7
 python-dateutil==2.8.1
 six==1.14.0
+jupyterlab==2.2.8

@@ -8,3 +8,6 @@ common
 dataset
 
 *.pkl
+
+# Jupyter Notebook
+.ipynb_checkpoints
